@@ -56,9 +56,9 @@
                     $.each(JSON.parse(data), function(key, value) {
                         $('#resultlist').append(`
                         <li class="list-group-item link-class" >
-                        <img src="avatar/+value.avatar+" height="40" width="40" class="img-thumbnail"/>
-                        <span class="nama">+value.nama_siswa+</span>
-                        <span class="text-muted" style="float: right;">+value.alamat+</span>
+                        <img src="avatar/`+value.avatar+`" height="40" width="40" class="img-thumbnail"/>
+                        <span class="nama">`+value.nama_siswa+`</span>
+                        <span class="text-muted" style="float: right;">`+value.alamat+`</span>
                         </li>`);
                     });
                 }
